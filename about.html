@@ -16,3 +16,21 @@
                 <a href='./storehouse.html'><span>Storehouse</span></a>
 
             </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./music.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./music.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
