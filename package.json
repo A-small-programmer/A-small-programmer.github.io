@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "hexo-deployer-git": "^3.0.0",
-    "hexo-theme-yun": "^1.9.0"
-  }
-}
