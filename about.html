@@ -1,0 +1,36 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<title>一个小程序员的网站</title>
+<Link Rel="SHORTCUT ICON" href="./ICO.ico">
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <h3 class="title">我是一个小程序员</h3>
+            <h3 class="titles">    对自己好点吧，谁知道生活中会发生什么？</h3>
+	  <img class="bgc" src="./imgs19.jpg" width="100%" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./about.html'><span>About</span></a>
+                <a href='./log.html'><span>Storehouse</span></a>
+
+            </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./music.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./music.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
