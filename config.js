@@ -19,15 +19,15 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.org.cn/'
+      url: 'https://a-small-programmer.github.io/'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/A-small-programmer'
     },
     {
       text: 'Blog',
-      url: 'https://abo.xyz/'
+      url: 'http://www.a-small-programmer.top'
     },
   ],
 };
